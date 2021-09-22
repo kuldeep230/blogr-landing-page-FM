@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.head {
+  width: 100%;
+  //first background
+  // linear-gradient(180deg, $gradient-1, $gradient-2)
+  background: url("../../assets/images/bg-pattern-intro.svg"),
+    linear-gradient($gradient-1, $gradient-2);
+  background-size: 350%;
+  background-position: 35% 33%;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-bottom-left-radius: 110px;
+  padding: 55px 24px 0px 22px;
+}

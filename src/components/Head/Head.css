@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap");
+.head {
+  width: 100%;
+  background: url("../../assets/images/bg-pattern-intro.svg"), -webkit-gradient(linear, left top, left bottom, from(#ff8f70), to(#ff3d54));
+  background: url("../../assets/images/bg-pattern-intro.svg"), linear-gradient(#ff8f70, #ff3d54);
+  background-size: 350%;
+  background-position: 35% 33%;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-bottom-left-radius: 110px;
+  padding: 55px 24px 0px 22px;
+}
+/*# sourceMappingURL=Head.css.map */

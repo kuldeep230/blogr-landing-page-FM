@@ -1,0 +1,52 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.welcome-text-wrapper {
+  //   border: 1px solid green; temporary for testing
+  @include flexCenter;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 6.9rem;
+  h1 {
+    color: $textWhite;
+    font-family: $fontOverpass;
+    font-size: 2.1rem;
+  }
+  p {
+    color: $textWhite;
+    font-family: $fontOverpass;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+  }
+  span {
+    display: block;
+  }
+  .btn-wrapper {
+    width: 100%;
+    // border: 1px solid green;
+    @include flexCenter;
+    padding-top: 1.9rem;
+    .btn-start {
+      margin-right: 15px;
+      color: $textCTA;
+    }
+    .btn-learn {
+      color: $textWhite;
+      background: none;
+      margin-left: 2px;
+    }
+  }
+  .btn {
+    height: 3em;
+    width: 8.5rem;
+    border-radius: 26px;
+    outline: none;
+    border: 1px solid $textWhite;
+    font-size: 1rem;
+    font-family: $fontUbuntu;
+    font-weight: 700;
+    padding-top: 2px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,10 @@
+@import ".././../../variables";
+@import "../../../mixins";
+
+.navBar {
+  @include flexCenter;
+  justify-content: space-between;
+  .brand {
+    height: 2.1rem;
+  }
+}
