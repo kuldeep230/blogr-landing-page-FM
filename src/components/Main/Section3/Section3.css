@@ -41,11 +41,11 @@
   overflow: hidden;
 }
 
-.content-wrapper .img-editor-mobile {
+.content-wrapper .img-illustrationLaptop {
   margin-top: 4.75rem;
   width: 100%;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.52);
+          transform: scale(1.52);
 }
 
 .text-block {
@@ -59,10 +59,6 @@
   margin-top: 3rem;
 }
 
-.text-block h3 span {
-  display: block;
-}
-
 .text-block p {
   padding-top: 0.9rem;
   line-height: 1.6;
@@ -70,4 +66,4 @@
   font-size: 1.1rem;
   font-weight: 400;
 }
-/*# sourceMappingURL=Section1.css.map */
+/*# sourceMappingURL=Section3.css.map */
