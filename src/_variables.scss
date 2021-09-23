@@ -16,13 +16,13 @@
 //
 $textCTA: hsl(356, 100%, 66%);
 //- Very light red (CTA hover background): hsl(355, 100%, 74%)
-//- Very dark blue (headings): hsl(208, 49%, 24%)
+$headings: hsl(208, 49%, 24%);
 //
 //### Neutral
 //
 $textWhite: hsl(0, 0%, 100%);
 //- Grayish blue (footer text): hsl(240, 2%, 79%)
-//- Very dark grayish blue (body copy): hsl(207, 13%, 34%)
+$bodyCopy: hsl(207, 13%, 34%);
 //- Very dark black blue (footer background): hsl(240, 10%, 16%)
 //
 //### Gradient
