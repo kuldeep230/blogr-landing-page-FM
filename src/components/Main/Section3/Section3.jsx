@@ -6,14 +6,14 @@ import IllustrationLaptop from "../../../assets/images/illustration-laptop-mobil
 
 const Section3 = () => {
   return (
-    <div className="section section3">
+    <section className="section section3">
       <div className="content-wrapper">
         <img
           className="img-illustrationLaptop"
           src={IllustrationLaptop}
           alt="illustration laptop"
         />
-        <div className="text-block">
+        <div className="text-block text-block-s3">
           <h3>Free, open, simple</h3>
           <p>
             Blogr is a free and open source application backed by a large
@@ -31,7 +31,7 @@ const Section3 = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Section3;

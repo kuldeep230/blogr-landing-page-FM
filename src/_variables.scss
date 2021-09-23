@@ -21,7 +21,7 @@ $headings: hsl(208, 49%, 24%);
 //### Neutral
 //
 $textWhite: hsl(0, 0%, 100%);
-//- Grayish blue (footer text): hsl(240, 2%, 79%)
+$footerText: hsl(240, 2%, 79%);
 $bodyCopy: hsl(207, 13%, 34%);
 //- Very dark black blue (footer background): hsl(240, 10%, 16%)
 //
@@ -34,8 +34,8 @@ $gradient-2: hsl(353, 100%, 62%);
 //
 //Background gradient - body:
 //
-//- Very dark gray blue: hsl(237, 17%, 21%)
-//- Very dark desaturated blue: hsl(237, 23%, 32%)
+$gradient-3: hsl(237, 17%, 21%);
+$gradient-4: hsl(237, 23%, 32%);
 //
 //## Typography
 //

@@ -44,8 +44,8 @@
 .content-wrapper .img-editor-mobile {
   margin-top: 4.75rem;
   width: 100%;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.24);
+          transform: scale(1.24);
 }
 
 .text-block {
@@ -55,8 +55,8 @@
 .text-block h3 {
   color: #1f3f5b;
   font-size: 1.7rem;
-  line-height: 1.25;
-  margin-top: 3rem;
+  line-height: 1.21;
+  margin-top: 3.16rem;
 }
 
 .text-block h3 span {

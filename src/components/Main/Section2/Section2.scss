@@ -1,0 +1,57 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.empty {
+  //   border: 1px solid blueviolet;
+  background: url("../../../assets/images/bg-pattern-circles.svg"),
+    linear-gradient(350deg, $gradient-4, $gradient-3);
+  background-position: 50% -860%;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 629px;
+  margin-top: 16.7rem;
+  z-index: -1;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  .img-illustrationPhones {
+    position: absolute;
+    top: -11.4rem;
+    left: 0;
+    width: 100%;
+    transform: scale(1.03);
+  }
+}
+.section {
+  //   border: 1px solid blueviolet;
+  @include flexCenter;
+  flex-direction: column;
+  padding: 102px 25px 0px 22px;
+}
+.content-wrapper {
+  //   border: 1px solid blueviolet;
+  @include flexCenter;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+.middle-section {
+  margin-top: 20rem;
+}
+.text-block-s2 {
+  // border: 1px solid blueviolet;
+  h3 {
+    color: $textWhite;
+    font-size: 2.34rem;
+    line-height: 1.32;
+    margin-top: 4.5rem;
+  }
+  p {
+    padding-top: 1.21rem;
+    line-height: 1.6;
+    color: $footerText;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}

@@ -12,6 +12,9 @@
     font-weight: 600;
   }
 }
+.section3 {
+  margin-top: 4rem;
+}
 .content-wrapper {
   @include flexCenter;
   flex-direction: column;
@@ -25,7 +28,6 @@
 }
 .text-block {
   // border: 1px solid blueviolet;
-  margin-top: 2rem;
   h3 {
     color: $headings;
     font-size: 1.7rem;

@@ -6,7 +6,7 @@ import editorMobile from "../../../assets/images/illustration-editor-mobile.svg"
 
 const Section1 = () => {
   return (
-    <div className="section section1">
+    <section className="section section1">
       <h2>Designed for the future</h2>
       <div className="content-wrapper">
         <img
@@ -37,7 +37,7 @@ const Section1 = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Section1;
